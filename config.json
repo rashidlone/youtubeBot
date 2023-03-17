@@ -5,20 +5,20 @@
         "port": 5000
     },
     "database": true,
-    "views": 1000,
+    "views": 5000,
     "minimum": 85.0,
     "maximum": 100.0,
     "proxy": {
-        "category": "r",
-        "proxy_type": "http",
-        "filename": "http://pubproxy.com/api/proxy?format=txt",
+        "category": "f",
+        "proxy_type": false,
+        "filename": false,
         "authentication": false,
-        "proxy_api": true,
+        "proxy_api": false,
         "refresh": 0.0
     },
     "background": true,
     "bandwidth": true,
     "playback_speed": 1,
-    "max_threads": 200,
-    "min_threads": 150
+    "max_threads": 30,
+    "min_threads": 15
 }
